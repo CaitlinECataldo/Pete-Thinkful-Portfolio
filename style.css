@@ -6,7 +6,9 @@ nav {
   margin: auto;
 }
 
-
+nav a {
+  padding: 10px;
+}
 
 body {
   color: #003049;
