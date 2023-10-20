@@ -10,6 +10,8 @@ nav a {
   padding: 10px;
 }
 
+
+
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
@@ -18,6 +20,12 @@ body {
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
+
+main, div {
+  margin: auto;
+  width: 600px;
+}
+
 h1,
 h2,
 h3 {
@@ -33,17 +41,18 @@ article {
   padding: 50px 0;
 }
 
-article div {
+article section {
   text-align: center;
   width: 100%;
 }
 
-p {
+p, ul {
   line-height: 1.5;
+  text-align: left;
 }
 
 /* The div container constrains the content width within the main container to 600px */
-div {
+section {
   margin: auto;
   width: 600px;
 }
